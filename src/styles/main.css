@@ -1,0 +1,27 @@
+/* src/styles/main.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .product-card, .contact-form, .admin-product {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

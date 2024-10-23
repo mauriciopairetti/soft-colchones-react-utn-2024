@@ -1,0 +1,80 @@
+/* src/styles/ContactForm.css */
+
+/* Estilo general del formulario */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-field {
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    background-color: #f9f9f9;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #204c84;
+    background-color: #fff;
+  }
+  
+  .textarea-field {
+    min-height: 150px;
+    resize: vertical;
+  }
+  
+  /* Botón de enviar */
+  .submit-btn {
+    background-color: #f1bb1e;
+    color: #204c84;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #ffcc33;
+    transform: scale(1.05);
+  }
+  
+  /* Efecto de sombra al enfocar los campos */
+  .input-field:focus {
+    box-shadow: 0 0 8px rgba(32, 76, 132, 0.5);
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .contact-form {
+      padding: 20px;
+    }
+  
+    .submit-btn {
+      font-size: 1rem;
+      padding: 12px;
+    }
+  
+    .input-field {
+      padding: 12px;
+    }
+  }
+  
